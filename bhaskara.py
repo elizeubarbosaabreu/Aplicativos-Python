@@ -86,8 +86,8 @@ while True:
 	delta = delta(a, b, c)
 		
 	print('Delta é \033[7m{}\033[m,'.format(delta), end=' ')
-	if delta < 1:
-		print('Delta menor que 1. Resolução impossível!!!')
+	if delta < 0:
+		print('Delta negativo. Resolução impossível!!!')
 		break
 
 	x1 = x1(a, b, c, delta)
