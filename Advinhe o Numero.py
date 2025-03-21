@@ -34,7 +34,7 @@ def titulo():
 def game():
 	count = 0
 	humano = 1000
-	computador = randint(1, 10)
+	computador = randint(1, 100)
 	# primeira pagina
 	cls()
 	titulo()
@@ -51,7 +51,7 @@ Mais antes quero saber um pouco mais sobre você...
 	
 	humano = int(input(f'''
 Olá {nome}, que bom te conhecer...
-Pensei em um número entre 0 e 10...
+Pensei em um número entre 0 e 100...
 Tente advinhar o número que pensei!!!
 Espero que você acerte na primeira tentativa!!!
 

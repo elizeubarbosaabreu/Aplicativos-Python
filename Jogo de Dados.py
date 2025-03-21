@@ -32,7 +32,7 @@ class JogarDados(object):
 		frame.pack()
 		self.label = Label(master, font=('times', 250))
 		button = Button(master, text='Jogar Dados', command=self.jogar)
-		button.place(x=200, y=10)
+		button.place(x=200, y=250)
 
 	def jogar(self):
 		symbols = ['\u2680', '\u2681', '\u2682', '\u2683', '\u2684', '\u2685']
