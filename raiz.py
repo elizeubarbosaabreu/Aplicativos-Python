@@ -14,6 +14,4 @@ def raiz():
 		sleep(5)
 
 
-raiz()
-	
-	
+raiz()	
